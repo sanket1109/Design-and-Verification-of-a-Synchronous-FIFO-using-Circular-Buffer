@@ -1,0 +1,451 @@
+COVERGROUP COVERAGE:
+----------------------------------------------------------------------------------------------------------
+Covergroup                                             Metric       Goal       Bins    Status               
+                                                                                                         
+----------------------------------------------------------------------------------------------------------
+ TYPE /top_tb/cov/test_cov                             75.00%        100          -    Uncovered            
+    covered/total bins:                                    50        320          -                      
+    missing/total bins:                                   270        320          -                      
+    % Hit:                                             15.62%        100          -                      
+    type_option.weight=1
+    type_option.goal=100
+    type_option.comment=
+    type_option.strobe=0
+    type_option.merge_instances=auto(0)
+    Coverpoint Reset                                  100.00%        100          -    Covered              
+        covered/total bins:                                 2          2          -                      
+        missing/total bins:                                 0          2          -                      
+        % Hit:                                        100.00%        100          -                      
+        type_option.weight=1
+        type_option.goal=100
+        type_option.comment=
+    Coverpoint Write                                  100.00%        100          -    Covered              
+        covered/total bins:                                 2          2          -                      
+        missing/total bins:                                 0          2          -                      
+        % Hit:                                        100.00%        100          -                      
+        type_option.weight=1
+        type_option.goal=100
+        type_option.comment=
+    Coverpoint Read                                   100.00%        100          -    Covered              
+        covered/total bins:                                 2          2          -                      
+        missing/total bins:                                 0          2          -                      
+        % Hit:                                        100.00%        100          -                      
+        type_option.weight=1
+        type_option.goal=100
+        type_option.comment=
+    Coverpoint Clear                                  100.00%        100          -    Covered              
+        covered/total bins:                                 2          2          -                      
+        missing/total bins:                                 0          2          -                      
+        % Hit:                                        100.00%        100          -                      
+        type_option.weight=1
+        type_option.goal=100
+        type_option.comment=
+    Coverpoint FullFIFO                               100.00%        100          -    Covered              
+        covered/total bins:                                 2          2          -                      
+        missing/total bins:                                 0          2          -                      
+        % Hit:                                        100.00%        100          -                      
+        type_option.weight=1
+        type_option.goal=100
+        type_option.comment=
+    Coverpoint EmptyFIFO                              100.00%        100          -    Covered              
+        covered/total bins:                                 2          2          -                      
+        missing/total bins:                                 0          2          -                      
+        % Hit:                                        100.00%        100          -                      
+        type_option.weight=1
+        type_option.goal=100
+        type_option.comment=
+    Coverpoint ReadData                                 0.00%        100          -    ZERO                 
+        covered/total bins:                                 0          2          -                      
+        missing/total bins:                                 2          2          -                      
+        % Hit:                                          0.00%        100          -                      
+        type_option.weight=1
+        type_option.goal=100
+        type_option.comment=
+    Coverpoint WriteData                               50.00%        100          -    Uncovered            
+        covered/total bins:                                 1          2          -                      
+        missing/total bins:                                 1          2          -                      
+        % Hit:                                         50.00%        100          -                      
+        type_option.weight=1
+        type_option.goal=100
+        type_option.comment=
+    Cross cross_evrything                               0.00%        100          -    ZERO                 
+        covered/total bins:                                 0        256          -                      
+        missing/total bins:                               256        256          -                      
+        % Hit:                                          0.00%        100          -                      
+        type_option.weight=1
+        type_option.goal=100
+        type_option.comment=
+    Cross cross_writexread                            100.00%        100          -    Covered              
+        covered/total bins:                                 4          4          -                      
+        missing/total bins:                                 0          4          -                      
+        % Hit:                                        100.00%        100          -                      
+        type_option.weight=1
+        type_option.goal=100
+        type_option.comment=
+    Cross cross_writexclear                           100.00%        100          -    Covered              
+        covered/total bins:                                 4          4          -                      
+        missing/total bins:                                 0          4          -                      
+        % Hit:                                        100.00%        100          -                      
+        type_option.weight=1
+        type_option.goal=100
+        type_option.comment=
+    Cross cross_readxreset                             50.00%        100          -    Uncovered            
+        covered/total bins:                                 2          4          -                      
+        missing/total bins:                                 2          4          -                      
+        % Hit:                                         50.00%        100          -                      
+        type_option.weight=1
+        type_option.goal=100
+        type_option.comment=
+    Cross cross_readxclear                             75.00%        100          -    Uncovered            
+        covered/total bins:                                 3          4          -                      
+        missing/total bins:                                 1          4          -                      
+        % Hit:                                         75.00%        100          -                      
+        type_option.weight=1
+        type_option.goal=100
+        type_option.comment=
+    Cross cross_clearxreset                            50.00%        100          -    Uncovered            
+        covered/total bins:                                 2          4          -                      
+        missing/total bins:                                 2          4          -                      
+        % Hit:                                         50.00%        100          -                      
+        type_option.weight=1
+        type_option.goal=100
+        type_option.comment=
+    Cross cross_resetxwrite                            50.00%        100          -    Uncovered            
+        covered/total bins:                                 2          4          -                      
+        missing/total bins:                                 2          4          -                      
+        % Hit:                                         50.00%        100          -                      
+        type_option.weight=1
+        type_option.goal=100
+        type_option.comment=
+    Cross cross_readxempty                            100.00%        100          -    Covered              
+        covered/total bins:                                 4          4          -                      
+        missing/total bins:                                 0          4          -                      
+        % Hit:                                        100.00%        100          -                      
+        type_option.weight=1
+        type_option.goal=100
+        type_option.comment=
+    Cross cross_writexempty                           100.00%        100          -    Covered              
+        covered/total bins:                                 4          4          -                      
+        missing/total bins:                                 0          4          -                      
+        % Hit:                                        100.00%        100          -                      
+        type_option.weight=1
+        type_option.goal=100
+        type_option.comment=
+    Cross cross_clearxempty                            75.00%        100          -    Uncovered            
+        covered/total bins:                                 3          4          -                      
+        missing/total bins:                                 1          4          -                      
+        % Hit:                                         75.00%        100          -                      
+        type_option.weight=1
+        type_option.goal=100
+        type_option.comment=
+    Cross cross_readxfull                              75.00%        100          -    Uncovered            
+        covered/total bins:                                 3          4          -                      
+        missing/total bins:                                 1          4          -                      
+        % Hit:                                         75.00%        100          -                      
+        type_option.weight=1
+        type_option.goal=100
+        type_option.comment=
+    Cross cross_writexfull                             75.00%        100          -    Uncovered            
+        covered/total bins:                                 3          4          -                      
+        missing/total bins:                                 1          4          -                      
+        % Hit:                                         75.00%        100          -                      
+        type_option.weight=1
+        type_option.goal=100
+        type_option.comment=
+    Cross cross_clearxfull                             75.00%        100          -    Uncovered            
+        covered/total bins:                                 3          4          -                      
+        missing/total bins:                                 1          4          -                      
+        % Hit:                                         75.00%        100          -                      
+        type_option.weight=1
+        type_option.goal=100
+        type_option.comment=
+ Covergroup instance \/top_tb/cov/cvg                  75.00%        100          -    Uncovered            
+    covered/total bins:                                    50        320          -                      
+    missing/total bins:                                   270        320          -                      
+    % Hit:                                             15.62%        100          -                      
+    option.name=\/top_tb/cov/cvg 
+    option.weight=1
+    option.goal=100
+    option.comment=
+    option.at_least=1
+    option.auto_bin_max=64
+    option.cross_num_print_missing=0
+    option.detect_overlap=0
+    option.per_instance=1
+    option.get_inst_coverage=0
+    Coverpoint Reset                                  100.00%        100          -    Covered              
+        covered/total bins:                                 2          2          -                      
+        missing/total bins:                                 0          2          -                      
+        % Hit:                                        100.00%        100          -                      
+        option.weight=1
+        option.goal=100
+        option.comment=
+        option.at_least=1
+        option.auto_bin_max=64
+        option.detect_overlap=0
+        bin ResetEnabled                                  127          1          -    Covered              
+        bin ResetDisabled                                 117          1          -    Covered              
+    Coverpoint Write                                  100.00%        100          -    Covered              
+        covered/total bins:                                 2          2          -                      
+        missing/total bins:                                 0          2          -                      
+        % Hit:                                        100.00%        100          -                      
+        option.weight=1
+        option.goal=100
+        option.comment=
+        option.at_least=1
+        option.auto_bin_max=64
+        option.detect_overlap=0
+        bin WriteEnabled                                   29          1          -    Covered              
+        bin WriteDisabled                                  88          1          -    Covered              
+    Coverpoint Read                                   100.00%        100          -    Covered              
+        covered/total bins:                                 2          2          -                      
+        missing/total bins:                                 0          2          -                      
+        % Hit:                                        100.00%        100          -                      
+        option.weight=1
+        option.goal=100
+        option.comment=
+        option.at_least=1
+        option.auto_bin_max=64
+        option.detect_overlap=0
+        bin ReadEnabled                                    57          1          -    Covered              
+        bin ReadDisabled                                   60          1          -    Covered              
+    Coverpoint Clear                                  100.00%        100          -    Covered              
+        covered/total bins:                                 2          2          -                      
+        missing/total bins:                                 0          2          -                      
+        % Hit:                                        100.00%        100          -                      
+        option.weight=1
+        option.goal=100
+        option.comment=
+        option.at_least=1
+        option.auto_bin_max=64
+        option.detect_overlap=0
+        bin ClearEnabled                                   33          1          -    Covered              
+        bin ClearDisabled                                  84          1          -    Covered              
+    Coverpoint FullFIFO                               100.00%        100          -    Covered              
+        covered/total bins:                                 2          2          -                      
+        missing/total bins:                                 0          2          -                      
+        % Hit:                                        100.00%        100          -                      
+        option.weight=1
+        option.goal=100
+        option.comment=
+        option.at_least=1
+        option.auto_bin_max=64
+        option.detect_overlap=0
+        bin FullFIFOEnabled                                 1          1          -    Covered              
+        bin FullFIFODisabled                              116          1          -    Covered              
+    Coverpoint EmptyFIFO                              100.00%        100          -    Covered              
+        covered/total bins:                                 2          2          -                      
+        missing/total bins:                                 0          2          -                      
+        % Hit:                                        100.00%        100          -                      
+        option.weight=1
+        option.goal=100
+        option.comment=
+        option.at_least=1
+        option.auto_bin_max=64
+        option.detect_overlap=0
+        bin EmptyFIFOEnabled                               89          1          -    Covered              
+        bin EmptyFIFODisabled                              28          1          -    Covered              
+    Coverpoint ReadData                                 0.00%        100          -    ZERO                 
+        covered/total bins:                                 0          2          -                      
+        missing/total bins:                                 2          2          -                      
+        % Hit:                                          0.00%        100          -                      
+        option.weight=1
+        option.goal=100
+        option.comment=
+        option.at_least=1
+        option.auto_bin_max=64
+        option.detect_overlap=0
+        bin ReadDataMin                                     0          1          -    ZERO                 
+        bin ReadDataMax                                     0          1          -    ZERO                 
+        default bin ReadDataMid                           117                     -    Occurred             
+    Coverpoint WriteData                               50.00%        100          -    Uncovered            
+        covered/total bins:                                 1          2          -                      
+        missing/total bins:                                 1          2          -                      
+        % Hit:                                         50.00%        100          -                      
+        option.weight=1
+        option.goal=100
+        option.comment=
+        option.at_least=1
+        option.auto_bin_max=64
+        option.detect_overlap=0
+        bin WriteDataMin                                   78          1          -    Covered              
+        bin WriteDataMax                                    0          1          -    ZERO                 
+        default bin WriteDataMid                           39                     -    Occurred             
+    Cross cross_evrything                               0.00%        100          -    ZERO                 
+        covered/total bins:                                 0        256          -                      
+        missing/total bins:                               256        256          -                      
+        % Hit:                                          0.00%        100          -                      
+        option.weight=1
+        option.goal=100
+        option.comment=
+        option.at_least=1
+        option.cross_num_print_missing=0
+        Auto, Default and User Defined Bins:
+            bin <*,*,*,*,*,*,*,*>                           0          1        256    ZERO                 
+    Cross cross_writexread                            100.00%        100          -    Covered              
+        covered/total bins:                                 4          4          -                      
+        missing/total bins:                                 0          4          -                      
+        % Hit:                                        100.00%        100          -                      
+        option.weight=1
+        option.goal=100
+        option.comment=
+        option.at_least=1
+        option.cross_num_print_missing=0
+        Auto, Default and User Defined Bins:
+            bin <WriteDisabled,ReadDisabled>               32          1          -    Covered              
+            bin <WriteEnabled,ReadDisabled>                28          1          -    Covered              
+            bin <WriteDisabled,ReadEnabled>                56          1          -    Covered              
+            bin <WriteEnabled,ReadEnabled>                  1          1          -    Covered              
+    Cross cross_writexclear                           100.00%        100          -    Covered              
+        covered/total bins:                                 4          4          -                      
+        missing/total bins:                                 0          4          -                      
+        % Hit:                                        100.00%        100          -                      
+        option.weight=1
+        option.goal=100
+        option.comment=
+        option.at_least=1
+        option.cross_num_print_missing=0
+        Auto, Default and User Defined Bins:
+            bin <WriteDisabled,ClearDisabled>              56          1          -    Covered              
+            bin <WriteEnabled,ClearDisabled>               28          1          -    Covered              
+            bin <WriteDisabled,ClearEnabled>               32          1          -    Covered              
+            bin <WriteEnabled,ClearEnabled>                 1          1          -    Covered              
+    Cross cross_readxreset                             50.00%        100          -    Uncovered            
+        covered/total bins:                                 2          4          -                      
+        missing/total bins:                                 2          4          -                      
+        % Hit:                                         50.00%        100          -                      
+        option.weight=1
+        option.goal=100
+        option.comment=
+        option.at_least=1
+        option.cross_num_print_missing=0
+        Auto, Default and User Defined Bins:
+            bin <ReadDisabled,ResetDisabled>               60          1          -    Covered              
+            bin <ReadEnabled,ResetDisabled>                57          1          -    Covered              
+            bin <*,ResetEnabled>                            0          1          2    ZERO                 
+    Cross cross_readxclear                             75.00%        100          -    Uncovered            
+        covered/total bins:                                 3          4          -                      
+        missing/total bins:                                 1          4          -                      
+        % Hit:                                         75.00%        100          -                      
+        option.weight=1
+        option.goal=100
+        option.comment=
+        option.at_least=1
+        option.cross_num_print_missing=0
+        Auto, Default and User Defined Bins:
+            bin <ReadDisabled,ClearDisabled>               27          1          -    Covered              
+            bin <ReadEnabled,ClearDisabled>                57          1          -    Covered              
+            bin <ReadDisabled,ClearEnabled>                33          1          -    Covered              
+            bin <ReadEnabled,ClearEnabled>                  0          1          1    ZERO                 
+    Cross cross_clearxreset                            50.00%        100          -    Uncovered            
+        covered/total bins:                                 2          4          -                      
+        missing/total bins:                                 2          4          -                      
+        % Hit:                                         50.00%        100          -                      
+        option.weight=1
+        option.goal=100
+        option.comment=
+        option.at_least=1
+        option.cross_num_print_missing=0
+        Auto, Default and User Defined Bins:
+            bin <ClearDisabled,ResetDisabled>              84          1          -    Covered              
+            bin <ClearEnabled,ResetDisabled>               33          1          -    Covered              
+            bin <*,ResetEnabled>                            0          1          2    ZERO                 
+    Cross cross_resetxwrite                            50.00%        100          -    Uncovered            
+        covered/total bins:                                 2          4          -                      
+        missing/total bins:                                 2          4          -                      
+        % Hit:                                         50.00%        100          -                      
+        option.weight=1
+        option.goal=100
+        option.comment=
+        option.at_least=1
+        option.cross_num_print_missing=0
+        Auto, Default and User Defined Bins:
+            bin <ResetDisabled,WriteDisabled>              88          1          -    Covered              
+            bin <ResetDisabled,WriteEnabled>               29          1          -    Covered              
+            bin <ResetEnabled,*>                            0          1          2    ZERO                 
+    Cross cross_readxempty                            100.00%        100          -    Covered              
+        covered/total bins:                                 4          4          -                      
+        missing/total bins:                                 0          4          -                      
+        % Hit:                                        100.00%        100          -                      
+        option.weight=1
+        option.goal=100
+        option.comment=
+        option.at_least=1
+        option.cross_num_print_missing=0
+        Auto, Default and User Defined Bins:
+            bin <ReadDisabled,EmptyFIFODisabled>           21          1          -    Covered              
+            bin <ReadEnabled,EmptyFIFODisabled>             7          1          -    Covered              
+            bin <ReadDisabled,EmptyFIFOEnabled>            39          1          -    Covered              
+            bin <ReadEnabled,EmptyFIFOEnabled>             50          1          -    Covered              
+    Cross cross_writexempty                           100.00%        100          -    Covered              
+        covered/total bins:                                 4          4          -                      
+        missing/total bins:                                 0          4          -                      
+        % Hit:                                        100.00%        100          -                      
+        option.weight=1
+        option.goal=100
+        option.comment=
+        option.at_least=1
+        option.cross_num_print_missing=0
+        Auto, Default and User Defined Bins:
+            bin <WriteDisabled,EmptyFIFODisabled>           7          1          -    Covered              
+            bin <WriteEnabled,EmptyFIFODisabled>           21          1          -    Covered              
+            bin <WriteDisabled,EmptyFIFOEnabled>           81          1          -    Covered              
+            bin <WriteEnabled,EmptyFIFOEnabled>             8          1          -    Covered              
+    Cross cross_clearxempty                            75.00%        100          -    Uncovered            
+        covered/total bins:                                 3          4          -                      
+        missing/total bins:                                 1          4          -                      
+        % Hit:                                         75.00%        100          -                      
+        option.weight=1
+        option.goal=100
+        option.comment=
+        option.at_least=1
+        option.cross_num_print_missing=0
+        Auto, Default and User Defined Bins:
+            bin <ClearDisabled,EmptyFIFODisabled>          28          1          -    Covered              
+            bin <ClearDisabled,EmptyFIFOEnabled>           56          1          -    Covered              
+            bin <ClearEnabled,EmptyFIFOEnabled>            33          1          -    Covered              
+            bin <ClearEnabled,EmptyFIFODisabled>            0          1          1    ZERO                 
+    Cross cross_readxfull                              75.00%        100          -    Uncovered            
+        covered/total bins:                                 3          4          -                      
+        missing/total bins:                                 1          4          -                      
+        % Hit:                                         75.00%        100          -                      
+        option.weight=1
+        option.goal=100
+        option.comment=
+        option.at_least=1
+        option.cross_num_print_missing=0
+        Auto, Default and User Defined Bins:
+            bin <ReadDisabled,FullFIFODisabled>            60          1          -    Covered              
+            bin <ReadEnabled,FullFIFODisabled>             56          1          -    Covered              
+            bin <ReadEnabled,FullFIFOEnabled>               1          1          -    Covered              
+            bin <ReadDisabled,FullFIFOEnabled>              0          1          1    ZERO                 
+    Cross cross_writexfull                             75.00%        100          -    Uncovered            
+        covered/total bins:                                 3          4          -                      
+        missing/total bins:                                 1          4          -                      
+        % Hit:                                         75.00%        100          -                      
+        option.weight=1
+        option.goal=100
+        option.comment=
+        option.at_least=1
+        option.cross_num_print_missing=0
+        Auto, Default and User Defined Bins:
+            bin <WriteDisabled,FullFIFODisabled>           87          1          -    Covered              
+            bin <WriteEnabled,FullFIFODisabled>            29          1          -    Covered              
+            bin <WriteDisabled,FullFIFOEnabled>             1          1          -    Covered              
+            bin <WriteEnabled,FullFIFOEnabled>              0          1          1    ZERO                 
+    Cross cross_clearxfull                             75.00%        100          -    Uncovered            
+        covered/total bins:                                 3          4          -                      
+        missing/total bins:                                 1          4          -                      
+        % Hit:                                         75.00%        100          -                      
+        option.weight=1
+        option.goal=100
+        option.comment=
+        option.at_least=1
+        option.cross_num_print_missing=0
+        Auto, Default and User Defined Bins:
+            bin <ClearDisabled,FullFIFODisabled>           83          1          -    Covered              
+            bin <ClearEnabled,FullFIFODisabled>            33          1          -    Covered              
+            bin <ClearDisabled,FullFIFOEnabled>             1          1          -    Covered              
+            bin <ClearEnabled,FullFIFOEnabled>              0          1          1    ZERO                 
+
+TOTAL COVERGROUP COVERAGE: 75.00%  COVERGROUP TYPES: 1
